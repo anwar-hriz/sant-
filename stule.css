@@ -1,0 +1,129 @@
+.column.is-relative {
+    position: relative;}
+/*pour fixer la le text sur la photo */
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  .overlay2 {
+    position: absolute;
+    top: 150%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #5096d4;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .text-on-image {
+    color: #004aad;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+.icons{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+  }
+.media-content{
+    margin-top: 60px;
+    font-size:30px;
+    color: #004aad;
+    margin-left: 70px;
+  }
+.Galerie{
+    min-height: 44vh;
+    background-color: #67b4ed;
+  }
+.Galerie .heading{
+    color: #fff;
+  }
+.Galerie .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.Galerie .box-container .box{
+    height: 15rem;
+    width: 20rem;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .5rem #67b4ed;
+    overflow: hidden;
+  }
+.Galerie .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+.Galerie .box-container .box img:hover{
+    transform: scale(1.4);
+  }
+.heading{
+    font-size: 3rem;
+    text-align: center; 
+  }
+h1{
+    text-align: center;
+  }
+  .custom-background {
+    margin: auto;
+    background-image:url(service.png);
+    background-size: cover; 
+    background-position: center;
+    height: 500px;
+  }
+  @media (max-width: 768px) {
+    /* Adjust styles for screens larger than 768px */
+    .text-on-image {
+      font-size: 2.5vw;
+    }
+    .overlay {
+      position: absolute;
+      top: 25%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+    }
+    .overlay2 {
+      position: absolute;
+      top: 130%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      color: #5096d4;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+    }
+   
+  }
+  @media (max-width: 1280px) {
+    /* Adjust styles for screens larger than 768px */
+    .text-on-image {
+      font-size: 4vw;
+    }
+    .overlay {
+      position: absolute;
+      top: 25%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+    }
+    .overlay2 {
+      position: absolute;
+      top: 130%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      color: #5096d4;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+   
+  }
+  
+  
